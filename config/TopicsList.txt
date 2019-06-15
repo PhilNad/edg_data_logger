@@ -1,0 +1,6 @@
+/fingers/1/position
+/fingers/1/velocity
+/fingers/1/pressure
+/fingers/2/position
+/fingers/2/velocity
+/fingers/2/pressure
