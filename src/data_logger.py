@@ -37,7 +37,11 @@ def appendDataPoint(topic, value):
 
     record.update({topic: value})
     #If we got one value for each topic, we append the CSV file.
-    if len(record) == len(listOfTopics) and len(record) > 0:
+    topicsReceived = 0
+    for topic in listOfTopics:
+        if topic in record:
+            topicsReceived += 1
+    if topicsReceived == len(listOfTopics) and len(listOfTopics) > 0:
         #The timestamp is the time since the 1st of January 1970 (unix timestamp)
         line = str(time.time())+','
         #For each topic, append its value
