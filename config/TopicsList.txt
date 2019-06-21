@@ -4,3 +4,9 @@
 /fingers/2/position
 /fingers/2/velocity
 /fingers/2/pressure
+/robotiq_ft_wrench/wrench/force/x
+/robotiq_ft_wrench/wrench/force/y
+/robotiq_ft_wrench/wrench/force/z
+/robotiq_ft_wrench/wrench/torque/x
+/robotiq_ft_wrench/wrench/torque/y
+/robotiq_ft_wrench/wrench/torque/z
