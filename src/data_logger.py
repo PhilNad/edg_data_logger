@@ -46,7 +46,10 @@ def appendDataPoint(topic, value):
         line = str(time.time())+','
         #For each topic, append its value
         for topic in listOfTopics:
-            line = line + str(record[topic]) + ','
+            try:
+                line = line + str(record[topic]) + ','
+            except KeyError as e:
+                pass
         line = line[0:-1] + '\n'
         output_file.write(line)
         record = {}
