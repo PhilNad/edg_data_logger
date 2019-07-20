@@ -1,12 +1,15 @@
 /fingers/1/position
 /fingers/1/velocity
 /fingers/1/pressure
+/fingers/1/meanpressure
 /fingers/2/position
 /fingers/2/velocity
 /fingers/2/pressure
+/fingers/2/meanpressure
 /load_cell/x
 /load_cell/y
 /load_cell/z
 /load_cell/mx
 /load_cell/my
 /load_cell/mz
+/joint_position/elbow
